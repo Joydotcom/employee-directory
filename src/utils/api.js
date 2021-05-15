@@ -1,4 +1,4 @@
-imprt cios from "axios";
+import axios from "axios";
 
 export default {
     getUsers: function() {
