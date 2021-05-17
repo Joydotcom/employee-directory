@@ -16,8 +16,9 @@
 import React, { Component } from "react";
 import API from "../utils/API";
 import Table from "./Table";
+// import Nav from "./Nav";
 
-export default class Body extends Component {
+export default class Data extends Component {
   // I am now considering the Body to be the parent component of my children later on.
   state = {
     users: [],
