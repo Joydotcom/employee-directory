@@ -1,5 +1,5 @@
 import React from "react";
-import Main from "./components/Main";
+import Data from "./components/Data";
 import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
 // import logo from './logo.svg';
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Wrapper>
         <Header />
-        <Main />
+        <Data />
       </Wrapper>
     </div>
   );
